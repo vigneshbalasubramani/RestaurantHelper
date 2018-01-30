@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path = "/RestaurantHelper" docBase = "myApp" crossContext = "true" reloadable = "true" debug = "1">
+	
+	<Resource name = "jdbc/restaurantDB" auth = "Container" type = "javax.sql.DataSource" maxActive = "150" maxIdle = "30" maxWait = "10000"
+	username = "root" password = "zilkeradmin" driverClassName = "com.mysql.jdbc.Driver"
+	url = "jdbc:mysql://localhost:3306/restaurant"/>
+</Context>
